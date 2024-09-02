@@ -3,6 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { MailIcon, PhoneIcon } from "lucide-react";
 
 const Contact = () => {
   return (
@@ -11,6 +12,19 @@ const Contact = () => {
         <CardTitle>Contato</CardTitle>
       </CardHeader>
       <CardContent>
+        {/* Contact Information */}
+        <div className="mb-6 space-y-2">
+          <div className="flex items-center">
+            <MailIcon className="h-5 w-5 mr-2 text-blue-600" />
+            <span>Email: Mayne1257@gmail.com</span>
+          </div>
+          <div className="flex items-center">
+            <PhoneIcon className="h-5 w-5 mr-2 text-blue-600" />
+            <span>Contato: (62) 98104-7941</span>
+          </div>
+        </div>
+
+        {/* Contact Form */}
         <form className="space-y-4">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nome</label>
