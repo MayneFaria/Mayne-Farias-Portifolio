@@ -14,17 +14,17 @@ const Contact = () => {
         <form className="space-y-4">
           <div>
             <label htmlFor="name" className="block text-sm font-medium text-gray-700">Nome</label>
-            <Input type="text" id="name" name="name" required />
+            <Input type="text" id="name" name="name" required className="mt-1" />
           </div>
           <div>
             <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-            <Input type="email" id="email" name="email" required />
+            <Input type="email" id="email" name="email" required className="mt-1" />
           </div>
           <div>
             <label htmlFor="message" className="block text-sm font-medium text-gray-700">Mensagem</label>
-            <Textarea id="message" name="message" rows={4} required />
+            <Textarea id="message" name="message" rows={4} required className="mt-1" />
           </div>
-          <Button type="submit">Enviar Mensagem</Button>
+          <Button type="submit" className="w-full">Enviar Mensagem</Button>
         </form>
       </CardContent>
     </Card>

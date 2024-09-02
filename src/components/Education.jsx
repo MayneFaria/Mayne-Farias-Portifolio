@@ -10,19 +10,19 @@ const Education = () => {
       <CardContent>
         <ul className="space-y-4">
           <li>
-            <h3 className="font-semibold">Bacharelado em Ciência da Computação</h3>
-            <p>Universidade XYZ, 2018-2022</p>
+            <h3 className="font-semibold">Pedagogia</h3>
+            <p>Universidade XYZ, Ano de Conclusão</p>
           </li>
           <li>
-            <h3 className="font-semibold">Curso de UX/UI Design</h3>
-            <p>Instituto ABC, 2023</p>
+            <h3 className="font-semibold">Gestão Pública</h3>
+            <p>Instituição ABC, Ano de Conclusão</p>
           </li>
         </ul>
-        <h3 className="font-semibold mt-6 mb-2">Idiomas</h3>
+        <h3 className="font-semibold mt-6 mb-2">Habilidades</h3>
         <ul className="list-disc list-inside">
-          <li>Português (Nativo)</li>
-          <li>Inglês (Avançado)</li>
-          <li>Espanhol (Intermediário)</li>
+          <li>Planejamento Educacional</li>
+          <li>Gestão de Projetos Públicos</li>
+          <li>Desenvolvimento de Políticas Educacionais</li>
         </ul>
       </CardContent>
     </Card>

@@ -3,9 +3,21 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const Portfolio = () => {
   const projects = [
-    { title: "Projeto 1", description: "Descrição do projeto 1", link: "#" },
-    { title: "Projeto 2", description: "Descrição do projeto 2", link: "#" },
-    { title: "Projeto 3", description: "Descrição do projeto 3", link: "#" },
+    { 
+      title: "Projeto de Gestão Escolar", 
+      description: "Desenvolvimento de um sistema de gestão para escolas públicas.", 
+      link: "#" 
+    },
+    { 
+      title: "Programa de Inclusão Digital", 
+      description: "Implementação de um programa de inclusão digital em comunidades carentes.", 
+      link: "#" 
+    },
+    { 
+      title: "Plataforma de Ensino à Distância", 
+      description: "Criação de uma plataforma online para cursos de formação continuada de professores.", 
+      link: "#" 
+    },
   ];
 
   return (

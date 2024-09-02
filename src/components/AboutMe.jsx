@@ -9,14 +9,14 @@ const AboutMe = () => {
       </CardHeader>
       <CardContent>
         <p className="text-gray-700">
-          Olá! Sou Mayne Farias de Moura, um apaixonado desenvolvedor web e designer UX/UI.
-          Minha missão é criar experiências digitais incríveis que combinam funcionalidade e estética.
+          Me chamo Mayne Farias. Gosto de descansar e passear com meus sobrinhos.
+          Sou uma pessoa dedicada e sempre em busca de novos desafios e aprendizados.
         </p>
         <h3 className="font-semibold mt-4 mb-2">Hobbies</h3>
         <ul className="list-disc list-inside">
-          <li>Fotografia</li>
+          <li>Passar tempo com a família</li>
           <li>Leitura</li>
-          <li>Viagens</li>
+          <li>Explorar novos lugares</li>
         </ul>
       </CardContent>
     </Card>
