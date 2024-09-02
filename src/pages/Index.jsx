@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
 import AboutMe from '../components/AboutMe';
