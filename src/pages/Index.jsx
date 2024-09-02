@@ -1,6 +1,4 @@
 import React from 'react';
-import { Button } from "@/components/ui/button";
-import { GithubIcon, LinkedinIcon, MailIcon } from "lucide-react";
 import AboutMe from '../components/AboutMe';
 import Education from '../components/Education';
 import Portfolio from '../components/Portfolio';
@@ -39,21 +37,6 @@ const Index = () => {
         <section id="contact" className="mb-12">
           <Contact />
         </section>
-
-        <footer className="text-center">
-          <h2 className="text-2xl font-semibold text-pink-800 mb-4">Redes Sociais</h2>
-          <div className="flex justify-center space-x-4">
-            <Button variant="outline" size="icon" className="bg-pink-100 hover:bg-pink-200 text-pink-800">
-              <GithubIcon className="h-4 w-4" />
-            </Button>
-            <Button variant="outline" size="icon" className="bg-pink-100 hover:bg-pink-200 text-pink-800">
-              <LinkedinIcon className="h-4 w-4" />
-            </Button>
-            <Button variant="outline" size="icon" className="bg-pink-100 hover:bg-pink-200 text-pink-800">
-              <MailIcon className="h-4 w-4" />
-            </Button>
-          </div>
-        </footer>
       </div>
     </div>
   );
