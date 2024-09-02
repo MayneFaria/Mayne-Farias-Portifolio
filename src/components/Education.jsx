@@ -11,11 +11,11 @@ const Education = () => {
         <ul className="space-y-4">
           <li>
             <h3 className="font-semibold">Pedagogia</h3>
-            <p>Universidade XYZ, Ano de Conclusão</p>
+            <p>Uninter, 2024</p>
           </li>
           <li>
             <h3 className="font-semibold">Gestão Pública</h3>
-            <p>Instituição ABC, Ano de Conclusão</p>
+            <p>Uninter, 2018</p>
           </li>
         </ul>
         <h3 className="font-semibold mt-6 mb-2">Habilidades</h3>
